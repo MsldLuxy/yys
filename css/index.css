@@ -1,0 +1,23 @@
+body { min-width: 1400px; }
+
+#header { position: relative; width: 100%; height: 628px; background: url("../img/index/main_banner.jpg") no-repeat top center; }
+#header #nav { float: right; width: 100%; height: 100px; }
+#header #nav.hover { background: rgba(255, 255, 255, 0.5); }
+#header #nav .nav-ul { float: right; width: 770px; height: 25px; margin-top: 45px; margin-right: 20px; }
+#header #nav .nav-ul .mNav { position: relative; float: left; width: 90px; height: 25px; font-size: 16px; padding-left: 20px; padding-bottom: 35px; line-height: 25px; cursor: pointer; }
+#header #nav .nav-ul .mNav:hover a { color: #cc4336; }
+#header #nav .nav-ul .mNav a { color: #000; transition: .3s; }
+#header #nav .nav-ul .mNav a .arrow { display: block; width: 0; height: 0; border-bottom: 10px solid #e1ebeb; border-left: 10px solid transparent; border-right: 10px solid transparent; position: absolute; bottom: 5px; left: 50%; margin-left: -16px; opacity: 1; }
+#header #nav .nav-ul .mNav .line { float: right; display: block; width: 15px; height: 25px; background: url("../img/index/index.png") no-repeat -1542px -1438px; }
+#header #nav .more-show { position: absolute; top: 100px; left: 0; width: 100%; height: 200px; background: #e1ebeb; color: #666; font-size: 16px; }
+#header #nav .more-show .more-list { width: 100%; height: 200px; padding-top: 33px; }
+#header #nav .more-show .more-list .qq-team { float: right; width: 320px; height: 104px; padding-left: 50px; border-left: 1px solid #c8d0d0; font-size: 12px; }
+#header #nav .more-show .more-list .qq-team p { width: 310px; text-align: center; }
+#header #nav .more-show .more-list .qq-team ul.qq-ul { width: 320px; height: 125px; }
+#header #nav .more-show .more-list .qq-team ul.qq-ul li { width: 153px; height: 25px; line-height: 25px; }
+#header #nav .more-show .more-list .qq-team ul.qq-ul li:nth-child(2n) { float: left; }
+#header #nav .more-show .more-list .qq-team ul.qq-ul li:nth-child(2n+1) { float: right; }
+#header #nav .more-show .more-list .scan { width: 225px; height: 104px; }
+#header #nav .more-show .more-list .scan img { width: 88px; height: 88px; }
+
+/*# sourceMappingURL=index.css.map */
